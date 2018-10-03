@@ -6,9 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include)
 
-add_executable(main 
-  src/main.cpp 
-  src/stack.cpp
-  src/queue.cpp )
+add_executable(stack src/stack.cpp )
   
+add_executable(queue src/queue.cpp )
+
 add_executable(tester test/tester.cpp)
