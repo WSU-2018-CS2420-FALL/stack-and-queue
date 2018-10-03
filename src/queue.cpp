@@ -30,7 +30,7 @@ int main(){
 
   return 0;
 }
-// LinkedStack: linked list based implementation
+// Implemenation
 template <typename T>
 LinkedQueue<T>::LinkedQueue(): front(nullptr), rear(nullptr){}
 
