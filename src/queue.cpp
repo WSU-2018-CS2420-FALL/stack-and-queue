@@ -25,10 +25,6 @@ int main(){
   cout << p.peekFront() << endl; p.dequeue();
   cout << p.peekFront() << endl; p.dequeue();
   cout << p.peekFront() << endl; p.dequeue();
-  
-  cout << palindrome("u") << endl;
-  cout << palindrome("radar") << endl;
-  cout << palindrome("queue") << endl;
 
 
   return 0;
